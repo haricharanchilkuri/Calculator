@@ -21,9 +21,10 @@ sh 'java Calculator 25 5'
       sh 'java Calculator 30 -5'
 }
 }
-  stage('depoly')
+  stage('depoly'){
     steps{
       echo 'deployment completed'
   }
+}
 }
 }
